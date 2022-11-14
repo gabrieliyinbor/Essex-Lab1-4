@@ -28,15 +28,7 @@ public class FilledFrame extends JFrame
 
         setSize( size+100, size+100 );
 
-        butMessage.addActionListener(new ActionListener()
-        {
-            @Override
-            public void actionPerformed(ActionEvent e)
-            {
-                JOptionPane.showMessageDialog(null, "Hiiii");
-            }
-        });
-
+        butMessage.addActionListener(new MessageHandler(this,"Hiiii"));
         butSmall.addActionListener(new ButtonHandler(this,20));
         butMedium.addActionListener(new ButtonHandler(this,40));
         butLarge.addActionListener(new ButtonHandler(this,80));
