@@ -1,4 +1,4 @@
-package Lab1;
+package lab1;
 
 public class main {
     public static void main(String[] args) {
@@ -8,7 +8,6 @@ public class main {
         shapes[2] = new RedRectangle(200,200,20,30);
 
         for(Shape shape:shapes)
-
         {
             shape.printName();
             shape.draw();

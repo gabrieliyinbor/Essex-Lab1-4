@@ -1,4 +1,4 @@
-package Lab1;
+package lab1;
 
 public class RedRectangle extends Rectangle{
     public RedRectangle(int lx, int ly, int sx , int sy){

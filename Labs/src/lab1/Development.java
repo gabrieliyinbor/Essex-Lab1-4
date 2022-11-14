@@ -1,4 +1,4 @@
-package Lab1;
+package lab1;
 
 public class Development extends Employee{
     int maintenanceTime;

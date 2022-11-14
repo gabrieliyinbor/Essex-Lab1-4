@@ -1,4 +1,4 @@
-package Lab1;
+package lab1;
 
 public class Sales extends Employee {
     int numberOfSales;

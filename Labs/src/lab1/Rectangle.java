@@ -1,4 +1,4 @@
-package Lab1;
+package lab1;
 
 public class Rectangle extends Shape {
     protected int locationX;
