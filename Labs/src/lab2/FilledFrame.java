@@ -37,25 +37,11 @@ public class FilledFrame extends JFrame
             }
         });
 
-        butSmall.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                setSize(size+20,size+20);
+        butSmall.addActionListener(new ButtonHandler(this,20));
+        butMedium.addActionListener(new ButtonHandler(this,40));
+        butLarge.addActionListener(new ButtonHandler(this,80));
 
-            }
-        });
-        butMedium.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                setSize(size+40,size+40);
-            }
-        });
-        butLarge.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                setSize(size+80,size+80);
-            }
-        });
+
     }
 
 }
