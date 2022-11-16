@@ -27,11 +27,14 @@ public class FilledFrame extends JFrame
         add(panel, BorderLayout.CENTER);
 
         setSize( size+100, size+100 );
-
+        butSmall.addActionListener(new MessageHandler(this,"Small Clicked"));
+        butMedium.addActionListener(new MessageHandler(this,"Medium Clicked"));
+        butLarge.addActionListener(new MessageHandler(this,"Large Clicked"));
         butMessage.addActionListener(new MessageHandler(this,"Hiiii"));
         butSmall.addActionListener(new ButtonHandler(this,20));
         butMedium.addActionListener(new ButtonHandler(this,40));
         butLarge.addActionListener(new ButtonHandler(this,80));
+
 
     }
 

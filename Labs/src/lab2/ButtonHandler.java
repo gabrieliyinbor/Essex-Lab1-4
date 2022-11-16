@@ -13,9 +13,7 @@ public class ButtonHandler implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        frame.setSize(size+400,size+400);
-        frame.invalidate();
-        frame.validate();
+        frame.size = size;
         frame.repaint();
     }
 }
