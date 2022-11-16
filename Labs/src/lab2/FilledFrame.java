@@ -33,7 +33,6 @@ public class FilledFrame extends JFrame
         butMedium.addActionListener(new ButtonHandler(this,40));
         butLarge.addActionListener(new ButtonHandler(this,80));
 
-
     }
 
 }
